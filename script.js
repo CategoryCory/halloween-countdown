@@ -19,7 +19,7 @@ if (
     nextHalloween = new Date(`${today.getFullYear()}-10-31T00:00:00`);
 }
 
-countdownTitle.innerText = `Countdown to Halloween ${nextHalloween.getFullYear()}`;
+countdownTitle.innerText = `Halloween ${nextHalloween.getFullYear()}`;
 
 setTimeout(() => {
     container.style.display = "flex";
