@@ -87,6 +87,11 @@ small {
 }
 
 @media screen and (max-width: 775px) {
+    body {
+        justify-content: start;
+        padding-top: 1.5rem;
+    }
+
     h1 {
         font-size: 2.25em;
     }
